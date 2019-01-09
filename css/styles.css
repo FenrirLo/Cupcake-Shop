@@ -12,8 +12,11 @@ h2 {
   text-align: center;
 }
 
+.unimportant {
+  color: red;
+}
+
 p {
-  color: blue;
   font-family: sans-serif;
   font-size: 30px;
 }
@@ -29,9 +32,21 @@ ul {
   color: red;
   font-style: italic;
 }
+.important{
+  font-variant-caps: all-small-caps;
+}
+
+.highlight {
+  font-style: italic;
+  font-weight: 900;
+}
 
 .best {
   background-color: yellow;
   font-weight: bold;
   text-decoration: underline;
+}
+
+img {
+  float: left;
 }
